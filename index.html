@@ -1,69 +1,195 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">  
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-
- <!--     Framework files -->
-
- <!--  CSS Files -->
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-  
-  <link href="css/mdb.min.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
-
-
-  <!-- JS files -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="js/jquery.slabtext.js"></script>
-  <script src= "js/script.js"></script>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
     <title>Ionista</title>
-    
-   
-</head>
-<body>
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="#">Ionista</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item" id="nav-ele"><a href="#">Home</a></li>
-        <li class="nav-item" id="nav-ele"><a href="#">Page 1</a></li>
-        <li class="nav-item" id="nav-ele"><a href="#">Page 2</a></li> 
-        <li class="nav-item" id="nav-ele"><a href="#">Page 3</a></li> 
-      </ul></div>
-  </div>
-</nav>
-<div class="main " align="center">
-<div class="main-pseudo">
-<div class="container-main">
-<h1 class="h1-responsive" id="main-heading"><span class = "slabtext">The Chemists.</span></h1>
-<h1 class="h3-responsive text-fluid"><span class = "slabtext">Hi there! We make life easy. See how...</span></h1>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-<button type="button" class="btn btn-outline-white waves-effect ">About Us</button>
-<button type="button" class="btn btn-elegant waves-effect">Contact</button><br>
-</div></div></div>
-<a href="" class="bouncy-arrow-hyperlink" align = "center"><i class="fa fa-angle-down fa-3x animated bounce infinite bouncy-arrow" aria-hidden="true"></i></a>
-<div class="about" align="center">
-  <h1 class="text-fluid">About Us</span></h1>
-  <h2 class=" lead blockquote bq-left">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></h2>
-   <h2 class="lead blockquote bq-right" >
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></h2>
-   <h2 class="lead blockquote bq-left">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></h2>
+   <link rel="icon" href="img/logo.png">
+
+   <!--  CSS Files -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+
+    <!-- JS files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+    <script src= "js/script.js"></script>
+      <title>Ionista</title>
+      
+     
+  </head>
+  <body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+        <a class="navbar-brand" href="#">Ionista</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item" id="nav-ele"><a href="#main">Home</a></li>
+          <li class="nav-item" id="nav-ele"><a href="#about">About</a></li>
+          <li class="nav-item" id="nav-ele"><a href="#ignite">Ignite</a></li> 
+          <li class="nav-item" id="nav-ele"><a href="#">Page 3</a></li> 
+        </ul></div>
+    </div>
+  </nav>
+  <div class="main" id = "main" align="center">
+  <div class="main-pseudo">
+  <div class="container-main">
+  <h1 class="h1-responsive" id="main-heading">The Chemists.</h1>
+  <h1 class="h3-responsive text-fluid">Hi there! We make life easy. See how...</h1>
+
+  <button type="button" class="btn waves-effect abt">About Us</button>
+  <button type="button" class="btn btn-elegant waves-effect">Contact</button><br>
+  </div></div></div>
+  <a href= "#about" id="arrow" ><i class="fa fa-angle-down fa-3x animated bounce infinite bouncy-arrow" aria-hidden="true"></i></a>
+  <div class="about" id = "about" align="center">
+    <h1 class="text-fluid"><span class = "black-rasp">A</span>bout <span class = "black-rasp">U</span>s</h1>
+    <h5 class=" lead blockquote bq-left">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></h4>
+     <h5 class="lead blockquote bq-right" >
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></h3>
+     <h5 class="lead blockquote bq-left">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></h3>
+  </div>
+
+  <div id="ignite" class="" align="center">
+    <h1 class="display-1"><span class = "rasp">I</span>gnite: <span class = "rasp">T</span>he <span class = "rasp">S</span>cience <span class = "rasp">F</span>est</h1><br>
+    </h1>
+<div id="timer" class="timer">
+  <div id="days" class="time"></div>
+  <div id="hours" class="time"></div>
+  <div id="minutes" class="time"></div>
+  <div id="seconds" class="time"></div>
+</div>
+  
 </div>
 
-<div id="ignite" class=""></div>
+<div class="team" align="center">
+  <h1 class="h1-responsive text-fluid" align="center">
+     <span class= "rasp">O</span>ur <span class= "rasp">A</span>mazing<span class= "rasp">T</span>eam</h1>
+     <h3 class="h1-responsive text-fluid" align="center">
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+     </h3>
+     
+     <div class="rows">
+     
+      <div class="cards card" align="center">
+        <div class="image">
+         <img src="img/person.jpg" class="img" height="200px" width="200px">
+       </div>
+       <div class="text">
+         <div class="title"><h3 class="h1-responsive"> Full Name</h3></div>
+     
+       <div class="designation">
+         Designation
+       </div>
+       </div>
+     </div>
+      <div class="cards card" align="center">
+        <div class="image">
+         <img src="img/person.jpg" class="img" height="200px" width="200px">
+       </div>
+       <div class="text">
+         <div class="title"><h3 class="h1-responsive"> Full Name</h3></div>
+       
+       <div class="designation">
+         Designation
+       </div>
+       </div>
+     </div>
+      <div class="cards card" align="center">
+        <div class="image">
+         <img src="img/person.jpg" class="img" height="200px" width="200px">
+       </div>
+       <div class="text">
+         <div class="title"><h3 class="h1-responsive"> Full Name</h3></div>
+      
+       <div class="designation">
+         Designation
+       </div>
+       </div>
+     </div>
+      <div class="cards card" align="center">
+        <div class="image">
+         <img src="img/person.jpg" class="img" height="200px" width="200px">
+       </div>
+       <div class="text">
+         <div class="title"><h3 class="h1-responsive"> Full Name</h3></div>
+         <div class="designation">
+         Designation
+       </div></div> 
+     </div>
+     </div>
+    
+    
+    
+     
+       <div class="cell card">
+       <h3 class="h1-responsive">Full Name</h3>
+           <div class="designation">Designation</div>
+      </div>
+       <div class="cell card">
+       <h3 class="h1-responsive">Full Name</h3>
+           <div class="designation">Designation</div>
+      </div>
+       <div class="cell card">
+       <h3 class="h1-responsive">Full Name</h3>
+           <div class="designation">Designation</div>
+      </div>
+       <div class="cell card">
+       <h3 class="h1-responsive">Full Name</h3>
+           <div class="designation">Designation</div>
+      </div>
+       <div class="cell card">
+       <h3 class="h1-responsive">Full Name</h3>
+           <div class="designation">Designation</div>
+      </div>
+       <div class="cell card">
+       <h3 class="h1-responsive">Full Name</h3>
+           <div class="designation">Designation</div>
+      </div>
+       <div class="cell card">
+       <h3 class="h1-responsive">Full Name</h3>
+           <div class="designation">Designation</div>
+      </div> <div class="cell card">
+       <h3 class="h1-responsive">Full Name</h3>
+           <div class="designation">Designation</div>
+      </div>
+       <div class="cell card">
+       <h3 class="h1-responsive">Full Name</h3>
+           <div class="designation">Designation</div>
+      </div>
+        <div class="cell card">
+       <h3 class="h1-responsive">Full Name</h3>
+           <div class="designation">Designation</div>
+      </div>
+       <div class="cell card">
+       <h3 class="h1-responsive">Full Name</h3>
+           <div class="designation">Designation</div>
+      </div>
+       <div class="cell card">
+       <h3 class="h1-responsive">Full Name</h3>
+           <div class="designation">Designation</div>
+      </div>
+
+      
+     </div>
+
+     </div></div></div>
+
+</body>
