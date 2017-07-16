@@ -297,7 +297,9 @@ label{
 			
 		
 }
-
+.form-control{
+	color: white;
+}
 .img{ 
 	
 	height: 70%;
@@ -326,4 +328,42 @@ label{
 	margin-bottom: 50px;
 	position: relative;
 }
+.contact{
+    position: relative;
+    z-index: 1;
+	padding-top: 100px;
+	padding-bottom: 50px; 
+	background-image: url('img/contact.jpg');
+	background-size: cover;
+	color: white;
+}
+.contact h1{
+	font-size: 3rem;
+}
 
+.cardz{
+	
+	width:40%;
+	min-width: 200px;
+	
+
+}
+.faded{
+    opacity: 0.7;
+}
+.buttons{
+    margin-top: 10px;
+	
+}
+
+.contact:after{
+	position: absolute;
+	top: 0; left: 0;
+	content: "";
+	height: 100%;
+	width: 100%;
+	opacity: 0.7;
+	background:#000;
+    z-index: -1;
+
+}
