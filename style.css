@@ -1,27 +1,25 @@
-.navbar{
-	padding: 5px;
-}
+
 .navbar-new{
 	padding: 0px;
 }
 
 .nav-item{
 	position: relative;
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	-webkit-transition: .3s ease-in-out;
 	z-index: 1;
 }
 .nav-item:after{
 	position: absolute;
 	content: "";
-    height: 100%;
+    height: 102%;
     width: 0;
     top:0;
     bottom: 0;
     left: 0;
     opacity: 0;
     z-index: -1;
-    background:#7f8c8d;
+    background:rgba(41, 128, 185,1.0);
     transition: .3s;
 }
 
@@ -53,12 +51,12 @@
 	top:0px;
 	margin-bottom:380px;
 	position: relative;
-    color: white;
+    color: black;
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
-.main:before{
+/*.main:before{
      content: "";
      position: absolute;
      top:0;
@@ -84,11 +82,11 @@
      width: 50%;
    	background-attachment: fixed;
      z-index: -2;
-}
+}*/
 .abt{
 	position: relative;
 	z-index: 1;
-	border:2px solid white;
+	border:2px solid black;
 	background: none;	
 }
 .abt:after{
@@ -116,26 +114,19 @@
 }
 .container-main{
 	position: relative;
-	padding-top: 60px;
+	padding-top: 10px;
     padding-bottom: 100px;	
+    width: 50%;
+    min-width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-.container-main:after{
-     content: "";
-     position: absolute;
 
-     top: 0;
-     left: 25%;
-     right:25%;
-     background: #000;
-     
-     height: 100%;
-     width: 50%;
-      opacity: 0.5;
-    	background-attachment: fixed;
-
-   
-     z-index: -1;
+.btn-rounded{
+	border-radius: 30px;
+	color: black;
 }
+
 
 #main-heading{
 	font-size:3rem;
@@ -157,10 +148,28 @@
 }
 .about{
 	position: relative;
-	background-color: #59ABE3;
-	padding-top: 200px;
+	margin-top:-450px;
+	padding-top: 75px;
 	padding-bottom: 150px;
-    color: white;
+    color: black;
+    z-index: 1;
+ }
+ #about{
+       position: relative;
+ 	  }
+
+  #about:after{
+  	position: absolute;
+  	top: 0px;
+  	left: 0;
+  	content: "";
+  	width: 30%;
+  	overflow: hidden;
+  	height: 100%;
+  	background: rgba(41, 128, 185,1.0);
+  	opacity: 1;
+  	z-index: -1;
+  	
   }
 .about h1{
 	padding-bottom: 60px;
@@ -170,7 +179,8 @@
 .about h5{
 	padding-top: 20px;
 	padding-bottom: 20px;
-	width: 90%;
+	margin-left: 30%;
+	width: 60%;
     font-weight: 200;
 	
 }
@@ -180,18 +190,35 @@
 .bq-right{
 	text-align: right;
 	padding-right: 1%;
-	border-right: 1px solid white;
+	border-right: 1px solid black;
 }
 .bq-left{
 	text-align: left;
 	padding-left: 1%;
-	border-left: 1px solid white;
+	border-left: 1px solid black;
 }
 #ignite{
-	background: #e0e0e0;
+	position: relative;
 	padding-bottom: 100px;
 	padding-top: 100px;
+	background: url('img/countdown.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	z-index: 1;
+	color: white;
 }
+#ignite:after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;top: 0;
+	background: #000;
+	opacity: 0.7;
+	z-index: -1;
+}
+
 .display-1{
 	font-size: 4rem;
 	padding-bottom: 60px;
@@ -203,7 +230,7 @@
 .time {
 	position: relative;
 	display: inline-block;
-    border-top: 1px solid #34495e;
+    border-top: 1px solid rgba(189, 195, 199,1.0);
 
     z-index: 1;
     line-height: 1;
@@ -220,7 +247,7 @@
 	top: 0;
 	bottom: 100%;
 	opacity: 0;
-	background: #3498db;
+	background: white;
 	transition: .3s;
 	z-index: -1;
 }
@@ -259,6 +286,7 @@ label{
   font-size: 4rem;
   color: black;
 }
+
 .team{
 	padding-top: 100px;
 	padding-bottom: 100px;
