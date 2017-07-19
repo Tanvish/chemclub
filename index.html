@@ -9,6 +9,7 @@
    <link rel="icon" href="img/logo.png">
 
    <!--  CSS Files -->
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
    
@@ -25,7 +26,8 @@
      
   </head>
   <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -39,29 +41,27 @@
         <ul class="nav navbar-nav navbar-right">
           <li class="nav-item" id="nav-ele"><a href="#main">Home</a></li>
           <li class="nav-item" id="nav-ele"><a href="#about">About</a></li>
-          <li class="nav-item" id="nav-ele"><a href="#ignite">Ignite</a></li> 
-          <li class="nav-item" id="nav-ele"><a href="#">Page 3</a></li> 
+          <li class="nav-item" id="nav-ele"><a href="#ignite">Ignite</a></li>
+          <li class="nav-item" id="nav-ele"><a href="#team">Team</a></li> 
+          <li class="nav-item" id="nav-ele"><a href="#contact">Contact</a></li> 
         </ul></div>
     </div>
   </nav>
+
+
   <div class="main" id = "main" align="center">
   <div class="main-pseudo">
-  <div class="container-main card">
-  <h1 class="h1-responsive" id="main-heading">The Chemists.</h1>
-  <h1 class="h3-responsive text-fluid">Hi there! We make life easy. See how...</h1>
+  <h1 class="text-fluid main-heading" id="main-heading">The Chemists.</h1>
+  <h1 class="h3-responsive text-fluid main-text">Hi there! We make life easy. See how...</h1>
 
-  <button type="button" class=" btn btn-outline-primary btn-rounded btn-md">About Us</button>
-  <button type="button" class="btn btn-outline-info btn-rounded waves-effect btn-md">Contact</button><br>
-  </div></div></div>
+  <a href="#about" class=" button">About Us</a>
+  <a href="#contact" class="button">Contact</a><br>
+  </div></div>
   <a href= "#about" id="arrow" ><i class="fa fa-angle-down fa-3x animated bounce infinite bouncy-arrow" aria-hidden="true"></i></a>
-  <div class="about" id = "about" align="center">
+  <div class="about" id = "about" >
     <h1 class="text-fluid"><span class = "rasp">A</span>bout <span class = "rasp">U</span>s</h1>
     <h5 class=" lead blockquote bq-left">
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></h4>
-     <h5 class="lead blockquote bq-right" >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></h3>
-     <h5 class="lead blockquote bq-left">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></h3>
   </div>
 
   <div id="ignite" class="" align="center">
@@ -190,7 +190,7 @@
 
      </div></div></div>
 
-<div class="contact" align="center">
+<div  id= "contact" class="contact" align="center">
 
   <h1 class=""><span class="rasp">C</span>ontact <span class="rasp">U</span>s</h1>
   <div class="card-block cardz">
@@ -204,13 +204,12 @@
     <!--Body-->
     <p>We'll write rarely, but only the best content.</p>
     <br>
-<form method="POST" action="https://formspree.io/tanvishjha@gmail.com">
 
-
-    
-   
+    <!--Body-->
+    <form action="https://formspree.io/tanvishjha@gmail.com"
+      method="POST"">
     <div class = "md-form">
-        <input type="text" id="form3" class="form-control" placeholder="Name" name= "Name">
+        <input type="text" id="form3" class="form-control" placeholder="Name" name = "name">
        
     </div>
 
@@ -219,11 +218,11 @@
     </div>
 
     <div class="md-form">
-        <input type="text" id="form32" class="form-control" placeholder="Subject" name = "Subject">
+        <input type="text" id="form32" class="form-control" placeholder="Subject" name="Subject">
     </div>
 
     <div class="md-form">
-        <textarea type="text" id="form8" class="md-textarea" placeholder="Message" name = "message"></textarea>
+        <textarea type="text" id="form8" class="md-textarea" placeholder="Message" name="Message"></textarea>
         
     </div>
 
